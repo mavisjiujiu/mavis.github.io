@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 引入字体 -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- 引入图标库 -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <title>Mavis's website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Mavis</a>
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">首页</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">关于我</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">成就</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">爱好</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">联系</a></li>
+                </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hi,<br>欢迎来到 <span class="home__title-color">Mavis</span><br> 的网站</h1>
+                <a href="#" class="button">Contact</a>
+            </div>
+            <div class="home__social">
+                <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                <a href="" class="home__social-icon"><i class='bx bxl-behance' ></i></a>
+                <a href="" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+            </div>
+        </section>
+        <section class="about section" id="about">
+            <h2 class="section-title">关于我</h2>
+            <div class="about__container bd-grid">
+                <div class="about__img-container">
+                    <div class="about__img-wrapper">
+                        <img src="image/Ran.png" alt="个人照片" class="about__img">
+                        <div class="about__img-overlay">
+                            <div class="about__img-overlay-text">探索更多</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about__info-card">
+                    <div class="about__info-header">
+                        <h2 class="imformation">基本信息</h2>
+                        <div class="about__info-divider"></div>
+                    </div>
+                    
+                    <ul class="about__info-list">
+                        <li class="about__info-item">
+                            <span class="about__info-label">姓名：</span>
+                            <span class="about__info-value">陈渭汾</span>
+                        </li>
+                        <li class="about__info-item">
+                            <span class="about__info-label">年龄：</span>
+                            <span class="about__info-value">20</span>
+                        </li>
+                        <li class="about__info-item">
+                            <span class="about__info-label">MBTI：</span>
+                            <span class="about__info-value">ENTP</span>
+                        </li>
+                        <li class="about__info-item">
+                            <span class="about__info-label">本科：</span>
+                            <span class="about__info-value">南宁学院</span>
+                        </li>
+                        <li class="about__info-item">
+                            <span class="about__info-label">专业：</span>
+                            <span class="about__info-value">大数据管理与应用</span>
+                        </li>
+                    </ul>
+                    
+                    <div class="about__info-actions">
+                        <a href="#contact" class="button about__contact-btn">联系我</a>
+                    </div>
+                </div>
+                
+                <div class="about__description">
+                    <h2 class="about__subtitle">I'am Mavis</h2>
+                    <p class="about__text">
+                        Hello!本人能力不大但食欲很强，是个急性子但一直在试图让自己平静下来目前来看收效甚微。
+                    </p>
+                    <p class="about__text">
+                         除此之外，好奇心强烈以及“什么都想捣鼓两下”是我的核心属性；特别有钻研精神，因为是个“不搞懂就睡不着”的犟种。
+                    </p>
+                    
+                    <div class="about__interests">
+                        <h3 class="about__interests-title">我的兴趣</h3>
+                        <div class="about__tags">
+                            <span class="about__tag">美食</span>
+                            <span class="about__tag">电影</span>
+                            <span class="about__tag">游戏</span>
+                            <span class="about__tag">旅行</span>
+                        </div>
+                    </div>
+                </div>                                   
+            </div>
+        </section>
+
+        <section class="skills section" id="skills">
+            <h2 class="section-title">成就</h2>
+            <div class="skills__container bd-grid">          
+                <div>
+                    <h2 class="skills__subtitle">个人技能</h2>
+                    <p class="skills__text">目前点亮的技能：凑不出一个‘技能组合拳’，只能单独放出‘新手入门级招式’，就像游戏刚开局，手里只有初始装备，高级技能还在‘加载中’，慢慢解锁ing～</p>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-html5 skills__icon'></i>
+                            <span class="skills__name">HTML5</span>
+                        </div>
+                        <div class="skills__bar skills__html"></div>
+                        <div>
+                            <span class="skills__percentage">60%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-css3 skills__icon'></i>
+                            <span class="skills__name">CSS3</span>
+                        </div>
+                        <div class="skills__bar skills__css"></div>
+                        <div>
+                            <span class="skills__percentage">60%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-javascript skills__icon' ></i>
+                            <span class="skills__name">JAVASCRIPT</span>
+                        </div>
+                        <div class="skills__bar skills__js"></div>
+                        <div>
+                            <span class="skills__percentage">50%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxs-paint skills__icon'></i>
+                            <span class="skills__name">python</span>
+                        </div>
+                        <div class="skills__bar skills__py"></div>
+                        <div>
+                            <span class="skills__percentage">80%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxs-paint skills__icon'></i>
+                            <span class="skills__name">java</span>
+                        </div>
+                        <div class="skills__bar skills__java"></div>
+                        <div>
+                            <span class="skills__percentage">80%</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img src="image/cup.png" class="cup__img" title="点击查看证书">
+                    <div id="imageModal" class="modal">
+                        <span class="modal__close">&times;</span>
+                        <div class="modal__content">
+                        <div class="modal__slides">
+                            <img src="image/certificate1.jpg" class="modal__img" alt="获奖图片1">
+                        </div>
+                        <div class="modal__slides">
+                            <img src="image/certificate2.jpg" class="modal__img" alt="获奖图片2">
+                        </div>
+                        <div class="modal__slides">
+                            <img src="image/certificate3.jpg" class="modal__img" alt="获奖图片3">
+                        </div>
+                        <a class="modal__prev">&#10094;</a>
+                        <a class="modal__next">&#10095;</a>
+                        </div>
+                        <div class="modal__thumbnails">
+                        <img class="modal__thumb" src="image/certificate1.jpg" alt="缩略图1">
+                        <img class="modal__thumb" src="image/certificate2.jpg" alt="缩略图2">
+                        <img class="modal__thumb" src="image/certificate3.jpg" alt="缩略图3">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="work section" id="work">
+            <h2 class="section-title">爱好</h2>
+            <div class="work__container bd-grid">
+                <a href="" class="work__img">
+                    <img src="image/image1.jpg" alt="">
+                </a>
+                <a href="" class="work__img">
+                    <img src="image/image4.jpg" alt="">
+                </a>
+                <a href="" class="work__img">
+                    <img src="image/image5.jpg" alt="">
+                </a>
+                <a href="" class="work__img">
+                    <img src="image/image2.jpg" alt="">
+                </a>
+                <a href="" class="work__img">
+                    <img src="image/image3.jpg" alt="">
+                </a>
+                <a href="" class="work__img">
+                    <img src="image/image6.jpg" alt="">
+                </a>
+            </div>
+        </section>
+
+        <section class="contact section" id="contact">
+            <h2 class="section-title">联系</h2>
+            <div class="contact__container bd-grid">
+                <div class="contact__info">
+                    <h3 class="contact__subtitle"></h3>
+                    <p class="contact__text">有任何问题，请给我留言。</p>
+                    <ul class="contact__info-list">
+                        <li class="contact__info-item">
+                            <i class='bx bx-mail-send'></i>
+                            <div>
+                                <span class="contact__info-label">电子邮件</span> 
+                                <a href="mailto:email@example.com" class="contact__info-value">3349985438@qq.com</a>
+                            </div>
+                        </li>
+                        <li class="contact__info-item">
+                            <i class='bx bxs-location-plus'></i>
+                            <div>
+                                <span class="contact__info-label">位置</span> 
+                                <span class="contact__info-value">广东，云浮</span> 
+                            </div>
+                        </li>
+                        <li class="contact__info-item">
+                            <i class='bx bxs-message-dots'></i>
+                            <div>
+                                <span class="contact__info-label">微信</span> 
+                                <span class="contact__info-value">YueeeeeE_5</span> 
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <form class="contact__form" id="contactForm">
+                    <h3 class="contact__form-title">发送消息</h3> 
+                    <ul class="contact__form-list">
+                        <li class="contact__form-item">
+                            <label for="name" class="contact__form-label">姓名</label> 
+                            <input type="text" id="name" name="name" class="contact__input" placeholder="请输入你的姓名" required> 
+                        </li>
+                        <li class="contact__form-item">
+                            <label for="email" class="contact__form-label">电子邮件</label> 
+                            <input type="email" id="email" name="email" class="contact__input" placeholder="请输入你的电子邮件" required> 
+                        </li>
+                        <li class="contact__form-item">
+                            <label for="message" class="contact__form-label">消息</label> 
+                            <textarea id="message" name="message" class="contact__input contact__textarea" rows="5" placeholder="请输入你的信息..." required></textarea> 
+                        </li>
+                        <li class="contact__form-item">
+                            <button type="submit" class="contact__button button">发送消息</button>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__title">MAVIS</p>
+        <div class="footer__social">
+            <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+            <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+            <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+        </div>
+        <p class="footer__copy">&#169; Mavis. 版权所有</p>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+</body>
+</html>
